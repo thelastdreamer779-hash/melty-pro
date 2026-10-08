@@ -1,0 +1,20 @@
+{
+  "sheet": "hooks",
+  "about": "Every place the mashup reads a game's files at runtime. Nothing from either game is shipped.",
+  "columns": {
+    "id": "unique id",
+    "game": "deltarune | black-hole-fishing",
+    "how_found": "how the program finds it",
+    "path": "path relative to the game folder",
+    "format": "file format",
+    "reads": "what is taken from it",
+    "when_missing": "what the player sees if it is missing"
+  },
+  "rows": [
+    {"id": "dr_root", "game": "deltarune", "how_found": "--game-dir {game} from Melty", "path": ".", "format": "folder", "reads": "chapter folders", "when_missing": "Message: Deltarune not found", "_src": {"game":"design","how_found":"Melty recipe (mode standalone, like deltafish)","path":"design","format":"design","when_missing":"design"}},
+    {"id": "dr_chapter_data", "game": "deltarune", "how_found": "dr_root + chapter folder", "path": "chapter1_windows/data.win", "format": "GameMaker IFF (FORM: SPRT/TPAG/TXTR/FONT/AUDO)", "reads": "party sprites, battle UI, fonts, SFX", "when_missing": "Message: Deltarune chapter files not found", "_src": {"game":"design","how_found":"design","format":"GameMaker data.win layout (UndertaleModLib reference)","reads":"design","when_missing":"design"}},
+    {"id": "dr_music", "game": "deltarune", "how_found": "dr_root + chapter folder", "path": "chapter1_windows/mus/", "format": "Ogg Vorbis", "reads": "area and battle music", "when_missing": "plays silently", "_src": {"game":"design","how_found":"design","reads":"design","when_missing":"design"}},
+    {"id": "bhf_root", "game": "black-hole-fishing", "how_found": "Steam libraryfolders.vdf -> appmanifest_3667390.acf -> installdir", "path": ".", "format": "folder", "reads": "game pack", "when_missing": "In-game notice: install Black Hole Fishing to bring its fish and Ted in", "_src": {"game":"design","how_found":"game_info (custom-black-hole-fishing) + Steam app id 3667390 from search_games","path":"design","format":"design","reads":"design","when_missing":"game_info"}},
+    {"id": "bhf_pack", "game": "black-hole-fishing", "how_found": "bhf_root", "path": null, "format": null, "reads": "fish sprites, fish traits, upgrades, Ted's portrait", "when_missing": "same as bhf_root", "_src": {"game":"design","how_found":"design","reads":"design","when_missing":"design"}}
+  ]
+}

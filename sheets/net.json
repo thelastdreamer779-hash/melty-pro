@@ -1,0 +1,21 @@
+{
+  "sheet": "net",
+  "about": "Co-op messages (host-authoritative, UDP via LiteNetLib). Max 2 players.",
+  "columns": {
+    "id": "message id",
+    "direction": "host->joiner | joiner->host",
+    "channel": "reliable | unreliable",
+    "fields": "payload fields",
+    "when": "when sent"
+  },
+  "rows": [
+    {"id": "hello", "direction": "joiner->host", "channel": "reliable", "fields": ["protocol", "name"], "when": "on connect", "_src": {"direction":"design","channel":"design","fields":"design","when":"design"}},
+    {"id": "welcome", "direction": "host->joiner", "channel": "reliable", "fields": ["protocol", "bhf_present", "save_state"], "when": "after hello", "_src": {"direction":"design","channel":"design","fields":"design","when":"design"}},
+    {"id": "world", "direction": "host->joiner", "channel": "unreliable", "fields": ["tick", "area", "kris_x", "kris_y", "facing"], "when": "every frame in overworld", "_src": {"direction":"design","channel":"design","fields":"design","when":"design"}},
+    {"id": "battle_start", "direction": "host->joiner", "channel": "reliable", "fields": ["fish_id", "seed"], "when": "encounter", "_src": {"direction":"design","channel":"design","fields":"design","when":"design"}},
+    {"id": "battle_choice", "direction": "joiner->host", "channel": "reliable", "fields": ["member", "command", "act_id"], "when": "joiner picks a menu option", "_src": {"direction":"design","channel":"design","fields":"design","when":"design"}},
+    {"id": "battle_state", "direction": "host->joiner", "channel": "reliable", "fields": ["phase", "hp", "tp", "mercy", "text"], "when": "phase change", "_src": {"direction":"design","channel":"design","fields":"design","when":"design"}},
+    {"id": "soul", "direction": "joiner->host", "channel": "unreliable", "fields": ["tick", "x", "y"], "when": "every frame of dodge turn", "_src": {"direction":"design","channel":"design","fields":"design","when":"design"}},
+    {"id": "bullets", "direction": "host->joiner", "channel": "unreliable", "fields": ["tick", "positions", "host_soul"], "when": "every frame of dodge turn", "_src": {"direction":"design","channel":"design","fields":"design","when":"design"}}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "sheet": "systems",
+  "about": "Game systems the mashup has. BHF systems follow BHF's own rules, read from its data/scripts.",
+  "columns": {
+    "id": "unique id",
+    "from_game": "deltarune | black-hole-fishing | mashup",
+    "summary": "what it does",
+    "bhf_rule": "the BHF rule it follows (from BHF's data/scripts), or n/a",
+    "inputs": "what the player puts in",
+    "outputs": "what comes out",
+    "area": "where it is (areas sheet)"
+  },
+  "refs": {"area": "areas"},
+  "rows": [
+    {"id": "battle", "from_game": "deltarune", "summary": "Turn-based battle: FIGHT/ACT/ITEM/SPARE/DEFEND, TP bar, bullet board with SOUL. Catching a fish = SPARE (REEL) at full MERCY.", "bhf_rule": "n/a", "inputs": "menu choices, SOUL movement", "outputs": "caught fish or defeat", "area": "pond_shallows", "_src": {"from_game":"design","summary":"design","bhf_rule":"design","inputs":"design","outputs":"design","area":"design"}},
+    {"id": "overworld", "from_game": "deltarune", "summary": "Walk Kris (party follows) between areas; interact with ponds, Ted, exits.", "bhf_rule": "n/a", "inputs": "arrows, Z/X", "outputs": "area change, encounters", "area": "field_rim", "_src": {"from_game":"design","summary":"design","bhf_rule":"design","inputs":"design","outputs":"design","area":"design"}},
+    {"id": "shop", "from_game": "black-hole-fishing", "summary": "Ted sells BHF upgrades for Dark Dollars.", "bhf_rule": null, "inputs": "Dark Dollars", "outputs": "upgrades", "area": "hub_bait_town", "_src": {"from_game":"design","summary":"design","inputs":"design","outputs":"design","area":"design"}},
+    {"id": "restock", "from_game": "black-hole-fishing", "summary": "Refills a pond's fish over time, as BHF's auto-restock does.", "bhf_rule": null, "inputs": "Dark Dollars", "outputs": "more encounters in a pond", "area": "hub_bait_town", "_src": {"from_game":"design","summary":"design","inputs":"design","outputs":"design","area":"design"}},
+    {"id": "research", "from_game": "black-hole-fishing", "summary": "Research a fish's traits (BHF's trait research); reveals traits in Check and boosts matching ACTs.", "bhf_rule": null, "inputs": "caught fish", "outputs": "known traits", "area": "hub_bait_town", "_src": {"from_game":"design","summary":"design","inputs":"design","outputs":"design","area":"design"}},
+    {"id": "breeding", "from_game": "black-hole-fishing", "summary": "Breed two caught fish into one with combined traits, using BHF's breeding rule.", "bhf_rule": null, "inputs": "two caught fish", "outputs": "a bred fish (worth more, stronger encounter)", "area": "hub_bait_town", "_src": {"from_game":"design","summary":"design","inputs":"design","outputs":"design","area":"design"}},
+    {"id": "smasher", "from_game": "black-hole-fishing", "summary": "BHF's fish-smashing machine: smash two fish together for a payout.", "bhf_rule": null, "inputs": "two caught fish", "outputs": "Dark Dollars", "area": "hub_bait_town", "_src": {"from_game":"design","summary":"design","inputs":"design","outputs":"design","area":"design"}},
+    {"id": "coop", "from_game": "mashup", "summary": "2 players: host = Kris + overworld; joiner = Susie and Ralsei (switch with C), chooses their ACTs and steers a second SOUL.", "bhf_rule": "n/a", "inputs": "network", "outputs": "shared battle", "area": "field_rim", "_src": {"from_game":"design","summary":"design (interview Q5)","bhf_rule":"design","inputs":"design","outputs":"design","area":"design"}}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "sheet": "traits",
+  "about": "Black Hole Fishing fish traits, read from the player's BHF install. Ids, names and effects must come from the game's own data - fill after reading it.",
+  "columns": {
+    "id": "trait id as it appears in BHF's data",
+    "name": "BHF display name",
+    "bhf_resource": "res:// path or data field in BHF's .pck that defines it",
+    "bhf_effect": "what the trait does in BHF",
+    "battle_effect": "how it changes the Deltarune battle (bullet pattern modifier)",
+    "best_act": "ACT id that spares best (acts sheet)"
+  },
+  "refs": {"best_act": "acts"},
+  "rows": []
+}

@@ -1,0 +1,107 @@
+{
+  "sheet": "areas",
+  "about": "Places in the new Dark World. Tiles and backgrounds are read from Deltarune's data.win; music from Deltarune's own .ogg files.",
+  "columns": {
+    "id": "unique id",
+    "name": "display name",
+    "kind": "intro | field | pond | hub",
+    "background": "data.win background/tileset name",
+    "music": "Deltarune music file (relative to the chapter folder)",
+    "exits": "area ids reachable from here",
+    "story_beat": "story_beats id that plays on first entry (or \"none\")"
+  },
+  "refs": {
+    "exits": "areas",
+    "story_beat": "story"
+  },
+  "rows": [
+    {
+      "id": "intro_pond",
+      "name": "Quiet Pond",
+      "kind": "intro",
+      "background": null,
+      "music": null,
+      "exits": [
+        "field_rim"
+      ],
+      "story_beat": "beat_rocks",
+      "_src": {
+        "name": "design",
+        "kind": "design",
+        "exits": "design",
+        "story_beat": "design (interview Q3)"
+      }
+    },
+    {
+      "id": "field_rim",
+      "name": "The Rim",
+      "kind": "field",
+      "background": null,
+      "music": null,
+      "exits": [
+        "intro_pond",
+        "pond_shallows",
+        "hub_bait_town",
+        "pond_horizon"
+      ],
+      "story_beat": "none",
+      "_src": {
+        "name": "design",
+        "kind": "design",
+        "exits": "design",
+        "story_beat": "design"
+      }
+    },
+    {
+      "id": "pond_shallows",
+      "name": "Void Shallows",
+      "kind": "pond",
+      "background": null,
+      "music": null,
+      "exits": [
+        "field_rim"
+      ],
+      "story_beat": "none",
+      "_src": {
+        "name": "design",
+        "kind": "design",
+        "exits": "design",
+        "story_beat": "design"
+      }
+    },
+    {
+      "id": "pond_horizon",
+      "name": "Event Horizon",
+      "kind": "pond",
+      "background": null,
+      "music": null,
+      "exits": [
+        "field_rim"
+      ],
+      "story_beat": "none",
+      "_src": {
+        "name": "design",
+        "kind": "design",
+        "exits": "design",
+        "story_beat": "design"
+      }
+    },
+    {
+      "id": "hub_bait_town",
+      "name": "Bait Town",
+      "kind": "hub",
+      "background": null,
+      "music": null,
+      "exits": [
+        "field_rim"
+      ],
+      "story_beat": "beat_shop",
+      "_src": {
+        "name": "design",
+        "kind": "design",
+        "exits": "design",
+        "story_beat": "design"
+      }
+    }
+  ]
+}

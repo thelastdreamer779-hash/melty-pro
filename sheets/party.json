@@ -1,0 +1,33 @@
+{
+  "sheet": "party",
+  "about": "Playable party members. Sprites are read at runtime from the player's Deltarune data.win (never shipped).",
+  "columns": {
+    "id": "unique id",
+    "name": "display name",
+    "controller": "who controls it in co-op: host | joiner",
+    "hp": "max HP in this mashup",
+    "attack": "FIGHT damage base",
+    "defense": "damage reduction",
+    "soul_color": "RGB hex of this player's SOUL in the bullet board",
+    "overworld_sprite": "data.win sprite name, walking down",
+    "battle_idle_sprite": "data.win sprite name, battle idle",
+    "battle_act_sprite": "data.win sprite name, ACT pose",
+    "chapter": "Deltarune chapter folder whose data.win holds these sprites",
+    "acts": "ACT ids this member can use (acts sheet)"
+  },
+  "refs": {"acts": "acts"},
+  "rows": [
+    {"id": "kris", "name": "Kris", "controller": "host", "hp": 90, "attack": 10, "defense": 2, "soul_color": "#FF0000",
+     "overworld_sprite": "spr_krisd", "battle_idle_sprite": "spr_krisb_idle", "battle_act_sprite": "spr_krisb_act",
+     "chapter": "chapter1_windows", "acts": ["check", "reel", "lure"],
+     "_src": {"name": "design", "controller": "design (interview Q5)", "hp": "design", "attack": "design", "defense": "design", "soul_color": "design", "acts": "design"}},
+    {"id": "susie", "name": "Susie", "controller": "joiner", "hp": 110, "attack": 14, "defense": 2, "soul_color": "#FF66CC",
+     "overworld_sprite": "spr_susied", "battle_idle_sprite": "spr_susieb_idle", "battle_act_sprite": "spr_susieb_act",
+     "chapter": "chapter1_windows", "acts": ["rock_toss", "smash_prep"],
+     "_src": {"name": "design", "controller": "design (interview Q5)", "hp": "design", "attack": "design", "defense": "design", "soul_color": "design", "acts": "design"}},
+    {"id": "ralsei", "name": "Ralsei", "controller": "joiner", "hp": 70, "attack": 8, "defense": 2, "soul_color": "#66FF66",
+     "overworld_sprite": "spr_ralseid", "battle_idle_sprite": "spr_ralseib_idle", "battle_act_sprite": "spr_ralseib_act",
+     "chapter": "chapter1_windows", "acts": ["soothe", "study_trait"],
+     "_src": {"name": "design", "controller": "design (interview Q5)", "hp": "design", "attack": "design", "defense": "design", "soul_color": "design", "acts": "design"}}
+  ]
+}

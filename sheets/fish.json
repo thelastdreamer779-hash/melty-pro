@@ -1,0 +1,26 @@
+{
+  "sheet": "fish",
+  "about": "Black Hole Fishing's own fish, appearing as Deltarune encounters. Name, sprite and traits are read from the player's BHF install; nothing here is invented art. Rows are slots until BHF's data is read.",
+  "columns": {
+    "id": "unique id (BHF's own fish id once read)",
+    "bhf_name": "BHF display name",
+    "bhf_sprite": "res:// texture path in BHF's .pck",
+    "bhf_value": "BHF sell value (drives Dark Dollar reward)",
+    "traits": "trait ids (traits sheet)",
+    "hp": "battle HP",
+    "attack": "bullet damage",
+    "pattern": "bullet pattern id (patterns sheet)",
+    "mercy_to_catch": "MERCY % needed before REEL",
+    "reward_dd": "Dark Dollars when caught",
+    "pond": "area id it is fished from (areas sheet)",
+    "is_boss": "true for the mystery-arc boss"
+  },
+  "refs": {"traits": "traits", "pattern": "patterns", "pond": "areas"},
+  "rows": [
+    {"id": "fish_slot_1", "bhf_name": null, "bhf_sprite": null, "bhf_value": null, "traits": null, "hp": 60, "attack": 4, "pattern": "drift", "mercy_to_catch": 100, "reward_dd": null, "pond": "pond_shallows", "is_boss": false, "_src": {"hp":"design","attack":"design","pattern":"design","mercy_to_catch":"design","pond":"design","is_boss":"design"}},
+    {"id": "fish_slot_2", "bhf_name": null, "bhf_sprite": null, "bhf_value": null, "traits": null, "hp": 80, "attack": 5, "pattern": "school", "mercy_to_catch": 100, "reward_dd": null, "pond": "pond_shallows", "is_boss": false, "_src": {"hp":"design","attack":"design","pattern":"design","mercy_to_catch":"design","pond":"design","is_boss":"design"}},
+    {"id": "fish_slot_3", "bhf_name": null, "bhf_sprite": null, "bhf_value": null, "traits": null, "hp": 90, "attack": 6, "pattern": "spiral", "mercy_to_catch": 100, "reward_dd": null, "pond": "pond_horizon", "is_boss": false, "_src": {"hp":"design","attack":"design","pattern":"design","mercy_to_catch":"design","pond":"design","is_boss":"design"}},
+    {"id": "fish_slot_4", "bhf_name": null, "bhf_sprite": null, "bhf_value": null, "traits": null, "hp": 110, "attack": 7, "pattern": "leap", "mercy_to_catch": 100, "reward_dd": null, "pond": "pond_horizon", "is_boss": false, "_src": {"hp":"design","attack":"design","pattern":"design","mercy_to_catch":"design","pond":"design","is_boss":"design"}},
+    {"id": "fish_boss", "bhf_name": null, "bhf_sprite": null, "bhf_value": null, "traits": null, "hp": 400, "attack": 9, "pattern": "singularity", "mercy_to_catch": 100, "reward_dd": null, "pond": "pond_horizon", "is_boss": true, "_src": {"hp":"design","attack":"design","pattern":"design","mercy_to_catch":"design","pond":"design","is_boss":"design"}}
+  ]
+}

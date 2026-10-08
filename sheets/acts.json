@@ -1,0 +1,24 @@
+{
+  "sheet": "acts",
+  "about": "ACT commands. Catching a fish = sparing it: ACTs raise its MERCY; at 100% SPARE becomes REEL.",
+  "columns": {
+    "id": "unique id",
+    "label": "menu text",
+    "user": "party member id",
+    "mercy": "MERCY % added on a fish whose traits match (0-100)",
+    "mercy_mismatch": "MERCY % added when no trait matches",
+    "matches_traits": "BHF trait ids this ACT works best on (traits sheet)",
+    "tp_cost": "TP % cost",
+    "text": "battle text shown"
+  },
+  "refs": {"user": "party", "matches_traits": "traits"},
+  "rows": [
+    {"id": "check", "label": "Check", "user": "kris", "mercy": 0, "mercy_mismatch": 0, "matches_traits": [], "tp_cost": 0, "text": "* Shows the fish's traits from Ted's research notes.", "_src": {"label":"design","user":"design","mercy":"design","mercy_mismatch":"design","matches_traits":"design","tp_cost":"design","text":"design"}},
+    {"id": "reel", "label": "Reel", "user": "kris", "mercy": 25, "mercy_mismatch": 10, "matches_traits": null, "tp_cost": 0, "text": "* You pull the line taut.", "_src": {"label":"design","user":"design","mercy":"design","mercy_mismatch":"design","tp_cost":"design","text":"design"}},
+    {"id": "lure", "label": "Lure", "user": "kris", "mercy": 30, "mercy_mismatch": 5, "matches_traits": null, "tp_cost": 16, "text": "* You dangle something shiny.", "_src": {"label":"design","user":"design","mercy":"design","mercy_mismatch":"design","tp_cost":"design","text":"design"}},
+    {"id": "rock_toss", "label": "RockToss", "user": "susie", "mercy": 20, "mercy_mismatch": 10, "matches_traits": null, "tp_cost": 0, "text": "* Susie throws a rock. Just like old times.", "_src": {"label":"design","user":"design","mercy":"design (BHF opening: throwing rocks at fish)","mercy_mismatch":"design","tp_cost":"design","text":"design"}},
+    {"id": "smash_prep", "label": "Tenderize", "user": "susie", "mercy": 35, "mercy_mismatch": 0, "matches_traits": null, "tp_cost": 32, "text": "* Susie gets the fish ready for the Smasher.", "_src": {"label":"design","user":"design","mercy":"design","mercy_mismatch":"design","tp_cost":"design","text":"design"}},
+    {"id": "soothe", "label": "Soothe", "user": "ralsei", "mercy": 25, "mercy_mismatch": 15, "matches_traits": null, "tp_cost": 0, "text": "* Ralsei hums to the fish.", "_src": {"label":"design","user":"design","mercy":"design","mercy_mismatch":"design","tp_cost":"design","text":"design"}},
+    {"id": "study_trait", "label": "Study", "user": "ralsei", "mercy": 10, "mercy_mismatch": 10, "matches_traits": [], "tp_cost": 0, "text": "* Ralsei takes notes. Trait research +1.", "_src": {"label":"design","user":"design","mercy":"design","mercy_mismatch":"design","matches_traits":"design","tp_cost":"design","text":"design"}}
+  ]
+}

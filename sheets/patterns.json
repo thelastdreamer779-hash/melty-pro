@@ -1,0 +1,19 @@
+{
+  "sheet": "patterns",
+  "about": "Bullet patterns in the battle board. Bullets use the fish's own BHF sprite, scaled down.",
+  "columns": {
+    "id": "unique id",
+    "kind": "motion: drift | school | spiral | leap | pull",
+    "count": "bullets per wave",
+    "speed": "pixels per frame at 30 fps",
+    "duration_frames": "length of the dodge turn",
+    "pull_strength": "black-hole pull on the SOUL toward board centre (0 = none)"
+  },
+  "rows": [
+    {"id": "drift", "kind": "drift", "count": 6, "speed": 2.0, "duration_frames": 150, "pull_strength": 0, "_src": {"kind":"design","count":"design","speed":"design","duration_frames":"design","pull_strength":"design"}},
+    {"id": "school", "kind": "school", "count": 10, "speed": 3.0, "duration_frames": 165, "pull_strength": 0, "_src": {"kind":"design","count":"design","speed":"design","duration_frames":"design","pull_strength":"design"}},
+    {"id": "spiral", "kind": "spiral", "count": 12, "speed": 2.5, "duration_frames": 180, "pull_strength": 0.3, "_src": {"kind":"design","count":"design","speed":"design","duration_frames":"design","pull_strength":"design"}},
+    {"id": "leap", "kind": "leap", "count": 5, "speed": 4.0, "duration_frames": 150, "pull_strength": 0, "_src": {"kind":"design","count":"design","speed":"design","duration_frames":"design","pull_strength":"design"}},
+    {"id": "singularity", "kind": "pull", "count": 16, "speed": 3.0, "duration_frames": 240, "pull_strength": 0.8, "_src": {"kind":"design","count":"design","speed":"design","duration_frames":"design","pull_strength":"design"}}
+  ]
+}

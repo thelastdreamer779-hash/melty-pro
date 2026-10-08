@@ -1,0 +1,111 @@
+{
+  "sheet": "story",
+  "about": "Story beats of the mystery arc. Ted Herring's portrait comes from BHF's own files; dialogue is new writing for this mashup.",
+  "columns": {
+    "id": "unique id",
+    "trigger": "when it plays: area_enter | catch_count | boss_defeated",
+    "trigger_value": "count or area for the trigger",
+    "speakers": "who talks: kris | susie | ralsei | ted",
+    "summary": "what happens",
+    "starts_battle": "fish id that a battle starts with afterwards, or \"none\""
+  },
+  "refs": {
+    "starts_battle": "fish"
+  },
+  "rows": [
+    {
+      "id": "beat_rocks",
+      "trigger": "area_enter",
+      "trigger_value": "intro_pond",
+      "speakers": [
+        "susie",
+        "ralsei",
+        "ted"
+      ],
+      "summary": "Kris throws rocks at fish (as in BHF's opening). Ted Herring appears and drops a black hole into the pond.",
+      "starts_battle": "fish_slot_1",
+      "_src": {
+        "trigger": "design",
+        "trigger_value": "design",
+        "speakers": "design",
+        "summary": "design (interview Q3)",
+        "starts_battle": "design"
+      }
+    },
+    {
+      "id": "beat_shop",
+      "trigger": "area_enter",
+      "trigger_value": "hub_bait_town",
+      "speakers": [
+        "ted",
+        "ralsei"
+      ],
+      "summary": "Ted opens his shop: restocking, trait research, breeding and the Smasher.",
+      "starts_battle": "none",
+      "_src": {
+        "trigger": "design",
+        "trigger_value": "design",
+        "speakers": "design",
+        "summary": "design",
+        "starts_battle": "design"
+      }
+    },
+    {
+      "id": "beat_suspicion",
+      "trigger": "catch_count",
+      "trigger_value": 3,
+      "speakers": [
+        "ralsei",
+        "susie"
+      ],
+      "summary": "Ralsei notices the ponds are shrinking toward the black hole. Where do the fish really go?",
+      "starts_battle": "none",
+      "_src": {
+        "trigger": "design",
+        "trigger_value": "design",
+        "speakers": "design",
+        "summary": "design",
+        "starts_battle": "design"
+      }
+    },
+    {
+      "id": "beat_boss",
+      "trigger": "catch_count",
+      "trigger_value": 4,
+      "speakers": [
+        "ted",
+        "kris",
+        "susie",
+        "ralsei"
+      ],
+      "summary": "Ted's real plan: feed the Dark World to the hole. The biggest fish comes out of the Event Horizon.",
+      "starts_battle": "fish_boss",
+      "_src": {
+        "trigger": "design",
+        "trigger_value": "design",
+        "speakers": "design",
+        "summary": "design",
+        "starts_battle": "design"
+      }
+    },
+    {
+      "id": "beat_end",
+      "trigger": "boss_defeated",
+      "trigger_value": "fish_boss",
+      "speakers": [
+        "ted",
+        "susie",
+        "ralsei"
+      ],
+      "summary": "The hole closes. Ted slinks off; the shop stays open.",
+      "starts_battle": "none",
+      "_src": {
+        "trigger": "design",
+        "trigger_value": "design",
+        "speakers": "design",
+        "summary": "design",
+        "starts_battle": "design"
+      }
+    }
+  ]
+}

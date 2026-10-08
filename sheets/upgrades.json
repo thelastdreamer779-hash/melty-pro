@@ -1,0 +1,20 @@
+{
+  "sheet": "upgrades",
+  "about": "Ted's shop. Each row is one of Black Hole Fishing's own upgrades, using its BHF name, icon and effect, priced in Dark Dollars. Rows are slots until BHF's data is read.",
+  "columns": {
+    "id": "BHF upgrade id",
+    "bhf_name": "BHF display name",
+    "bhf_icon": "res:// icon path in BHF's .pck",
+    "bhf_effect": "what it does in BHF",
+    "effect": "what it does here: mercy_bonus | reward_bonus | restock_speed | soul_speed | hp_bonus",
+    "amount": "effect size",
+    "cost_dd": "price in Dark Dollars",
+    "system": "hub system that sells it (systems sheet)"
+  },
+  "refs": {"system": "systems"},
+  "rows": [
+    {"id": "upgrade_slot_1", "bhf_name": null, "bhf_icon": null, "bhf_effect": null, "effect": null, "amount": null, "cost_dd": null, "system": "shop"},
+    {"id": "upgrade_slot_2", "bhf_name": null, "bhf_icon": null, "bhf_effect": null, "effect": null, "amount": null, "cost_dd": null, "system": "shop"},
+    {"id": "upgrade_slot_3", "bhf_name": null, "bhf_icon": null, "bhf_effect": null, "effect": null, "amount": null, "cost_dd": null, "system": "shop"}
+  ]
+}
