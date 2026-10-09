@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "mode": "installed",
+  "games": [
+    {
+      "slug": "hollow-knight",
+      "role": "primary"
+    },
+    {
+      "slug": "custom-geometry-dash",
+      "role": "secondary"
+    },
+    {
+      "slug": "custom-turnip-mountain",
+      "role": "secondary"
+    }
+  ],
+  "components": [
+    {
+      "id": "main",
+      "kind": "main",
+      "label": "Main files",
+      "fileName": "TurnipDash-*.zip",
+      "required": true
+    }
+  ],
+  "requirements": [
+    {
+      "id": "hk-modding-api",
+      "kind": "loader"
+    }
+  ],
+  "mappings": [
+    {
+      "component": "main",
+      "from": "AssetsTools.NET.dll",
+      "to": "{game}/hollow_knight_Data/Managed/Mods/TurnipDash"
+    },
+    {
+      "component": "main",
+      "from": "NLayer.dll",
+      "to": "{game}/hollow_knight_Data/Managed/Mods/TurnipDash"
+    },
+    {
+      "component": "main",
+      "from": "README.md",
+      "to": "{game}/hollow_knight_Data/Managed/Mods/TurnipDash"
+    },
+    {
+      "component": "main",
+      "from": "THIRD-PARTY-NOTICES.txt",
+      "to": "{game}/hollow_knight_Data/Managed/Mods/TurnipDash"
+    },
+    {
+      "component": "main",
+      "from": "TurnipDash.dll",
+      "to": "{game}/hollow_knight_Data/Managed/Mods/TurnipDash"
+    }
+  ],
+  "launch": {
+    "kind": "game"
+  }
+}
