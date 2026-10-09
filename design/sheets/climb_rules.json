@@ -1,0 +1,34 @@
+{
+ "sheet": "climb_rules",
+ "about": "Turnip Mountain's two-hand climbing: each hand grabs and lets go on its own button, the free hand is steered, the body swings under whatever is held. Falling below fallResetY puts the turnip back on the start ledge.",
+ "columns": [
+  "id",
+  "leftGrip",
+  "rightGrip",
+  "reach",
+  "grabRadius",
+  "handSpeed",
+  "gravity",
+  "damping",
+  "pullStrength",
+  "fallResetY",
+  "summitY",
+  "verified"
+ ],
+ "rows": [
+  {
+   "id": "default",
+   "leftGrip": "attack",
+   "rightGrip": "dash",
+   "reach": 2.6,
+   "grabRadius": 0.7,
+   "handSpeed": 7.0,
+   "gravity": 18.0,
+   "damping": 0.995,
+   "pullStrength": 6.0,
+   "fallResetY": -6.0,
+   "summitY": 26.0,
+   "verified": "pending-in-game"
+  }
+ ]
+}

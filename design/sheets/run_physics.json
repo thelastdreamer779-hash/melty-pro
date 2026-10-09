@@ -1,0 +1,9 @@
+{
+  "sheet": "run_physics",
+  "about": "Auto-run tuning, in GD blocks and seconds. Tuned to GD 1x speed feel; GD's own constants are not read from its files.",
+  "columns": ["id", "mode", "speed", "gravity", "jumpVelocity", "padVelocity", "orbVelocity", "holdLift", "maxFall", "size", "verified"],
+  "rows": [
+    {"id": "cube", "mode": "cube", "speed": 10.386, "gravity": 110.0, "jumpVelocity": 21.0, "padVelocity": 30.0, "orbVelocity": 21.0, "holdLift": 0.0, "maxFall": 30.0, "size": 0.9, "verified": "pending-in-game"},
+    {"id": "ship", "mode": "ship", "speed": 10.386, "gravity": 40.0, "jumpVelocity": 0.0, "padVelocity": 16.0, "orbVelocity": 12.0, "holdLift": 80.0, "maxFall": 12.0, "size": 0.8, "verified": "pending-in-game"}
+  ]
+}

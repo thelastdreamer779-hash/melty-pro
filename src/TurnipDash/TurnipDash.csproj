@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyName>TurnipDash</AssemblyName>
+    <RootNamespace>TurnipDash</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <Version>0.2.0</Version>
+    <Deterministic>true</Deterministic>
+    <Nullable>disable</Nullable>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+    <!-- Unity's public reference assemblies; the game supplies the real ones at runtime. -->
+    <PackageReference Include="UnityEngine.Modules" Version="2021.3.33" PrivateAssets="all" ExcludeAssets="runtime" />
+    <!-- Bundled with the mod (MIT). -->
+    <PackageReference Include="NLayer" Version="1.16.0" />
+    <PackageReference Include="AssetsTools.NET" Version="3.0.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- The Modding API's Mod class, compile-time only; the game's patched Assembly-CSharp.dll supplies it. -->
+    <Reference Include="Assembly-CSharp">
+      <HintPath>../../stub/Assembly-CSharp/bin/Release/net472/Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <EmbeddedResource Include="../../third_party/classdata.tpk" LogicalName="TurnipDash.classdata.tpk" />
+  </ItemGroup>
+</Project>

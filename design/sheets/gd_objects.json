@@ -1,0 +1,22 @@
+{
+  "sheet": "gd_objects",
+  "about": "Geometry Dash object ids the run understands. Sizes in GD blocks (30 units). Unknown ids are drawn as nothing and never collide. behaviour: solid, hazard, pad (launch), orb (press to jump midair), toShip, toCube.",
+  "columns": ["id", "gdObjectId", "behaviour", "frame", "hitW", "hitH", "hitOffsetY", "verified"],
+  "rows": [
+    {"id": "block_1", "gdObjectId": 1, "behaviour": "solid", "frame": "gd_frame_block", "hitW": 1.0, "hitH": 1.0, "hitOffsetY": 0.0, "verified": "pending-in-game"},
+    {"id": "block_2", "gdObjectId": 2, "behaviour": "solid", "frame": "gd_frame_block", "hitW": 1.0, "hitH": 1.0, "hitOffsetY": 0.0, "verified": "pending-in-game"},
+    {"id": "block_3", "gdObjectId": 3, "behaviour": "solid", "frame": "gd_frame_block", "hitW": 1.0, "hitH": 1.0, "hitOffsetY": 0.0, "verified": "pending-in-game"},
+    {"id": "block_4", "gdObjectId": 4, "behaviour": "solid", "frame": "gd_frame_block", "hitW": 1.0, "hitH": 1.0, "hitOffsetY": 0.0, "verified": "pending-in-game"},
+    {"id": "block_5", "gdObjectId": 5, "behaviour": "solid", "frame": "gd_frame_block", "hitW": 1.0, "hitH": 1.0, "hitOffsetY": 0.0, "verified": "pending-in-game"},
+    {"id": "block_6", "gdObjectId": 6, "behaviour": "solid", "frame": "gd_frame_block", "hitW": 1.0, "hitH": 1.0, "hitOffsetY": 0.0, "verified": "pending-in-game"},
+    {"id": "block_7", "gdObjectId": 7, "behaviour": "solid", "frame": "gd_frame_block", "hitW": 1.0, "hitH": 1.0, "hitOffsetY": 0.0, "verified": "pending-in-game"},
+    {"id": "slab_40", "gdObjectId": 40, "behaviour": "solid", "frame": "gd_frame_block", "hitW": 1.0, "hitH": 0.5, "hitOffsetY": 0.25, "verified": "pending-in-game"},
+    {"id": "spike_8", "gdObjectId": 8, "behaviour": "hazard", "frame": "gd_frame_spike", "hitW": 0.2, "hitH": 0.4, "hitOffsetY": -0.1, "verified": "pending-in-game"},
+    {"id": "spike_small_39", "gdObjectId": 39, "behaviour": "hazard", "frame": "gd_frame_spike", "hitW": 0.2, "hitH": 0.2, "hitOffsetY": -0.3, "verified": "pending-in-game"},
+    {"id": "spike_ground_9", "gdObjectId": 9, "behaviour": "hazard", "frame": "gd_frame_spike", "hitW": 0.9, "hitH": 0.2, "hitOffsetY": -0.35, "verified": "pending-in-game"},
+    {"id": "pad_35", "gdObjectId": 35, "behaviour": "pad", "frame": "gd_frame_pad", "hitW": 0.8, "hitH": 0.2, "hitOffsetY": -0.4, "verified": "pending-in-game"},
+    {"id": "orb_36", "gdObjectId": 36, "behaviour": "orb", "frame": "gd_frame_orb", "hitW": 1.2, "hitH": 1.2, "hitOffsetY": 0.0, "verified": "pending-in-game"},
+    {"id": "portal_ship_13", "gdObjectId": 13, "behaviour": "toShip", "frame": "gd_frame_ship_portal", "hitW": 1.2, "hitH": 3.0, "hitOffsetY": 0.0, "verified": "pending-in-game"},
+    {"id": "portal_cube_12", "gdObjectId": 12, "behaviour": "toCube", "frame": "gd_frame_portal", "hitW": 1.2, "hitH": 3.0, "hitOffsetY": 0.0, "verified": "pending-in-game"}
+  ]
+}

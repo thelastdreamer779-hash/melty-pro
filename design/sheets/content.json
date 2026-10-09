@@ -1,0 +1,19 @@
+{
+  "sheet": "content",
+  "about": "Real content read at runtime from the player's own installed copies. Nothing here is shipped. kind: plistLevel = gzip+base64 level string under key in a cocos2d plist; mp3; atlasFrame = frame in a cocos2d sprite sheet (plist + png); unityImage = Texture2D/Sprite in a Unity build whose name contains match (case-insensitive), with loose png fallback.",
+  "columns": ["id", "game", "kind", "path", "match", "atlas", "required", "usedBy", "verified"],
+  "rows": [
+    {"id": "gd_level_stereo", "game": "gd", "kind": "plistLevel", "path": "Resources/LevelData.plist", "match": "1", "atlas": "none", "required": true, "usedBy": "dash_run", "verified": "pending-in-game"},
+    {"id": "gd_music_stereo", "game": "gd", "kind": "mp3", "path": "Resources/StereoMadness.mp3", "match": "none", "atlas": "none", "required": true, "usedBy": "dash_run", "verified": "pending-in-game"},
+    {"id": "gd_sheet", "game": "gd", "kind": "atlasSheet", "path": "Resources/GJ_GameSheet-uhd", "match": "none", "atlas": "none", "required": true, "usedBy": "dash_run", "verified": "pending-in-game"},
+    {"id": "gd_frame_block", "game": "gd", "kind": "atlasFrame", "path": "Resources/GJ_GameSheet-uhd", "match": "square_01_001.png", "atlas": "gd_sheet", "required": true, "usedBy": "dash_run", "verified": "pending-in-game"},
+    {"id": "gd_frame_spike", "game": "gd", "kind": "atlasFrame", "path": "Resources/GJ_GameSheet-uhd", "match": "spike_01_001.png", "atlas": "gd_sheet", "required": true, "usedBy": "dash_run", "verified": "pending-in-game"},
+    {"id": "gd_frame_portal", "game": "gd", "kind": "atlasFrame", "path": "Resources/GJ_GameSheet-uhd", "match": "portal_01_front_001.png", "atlas": "gd_sheet", "required": false, "usedBy": "portal", "verified": "pending-in-game"},
+    {"id": "gd_frame_ship_portal", "game": "gd", "kind": "atlasFrame", "path": "Resources/GJ_GameSheet-uhd", "match": "portal_02_front_001.png", "atlas": "gd_sheet", "required": false, "usedBy": "dash_run", "verified": "pending-in-game"},
+    {"id": "gd_frame_pad", "game": "gd", "kind": "atlasFrame", "path": "Resources/GJ_GameSheet-uhd", "match": "bump_01_001.png", "atlas": "gd_sheet", "required": false, "usedBy": "dash_run", "verified": "pending-in-game"},
+    {"id": "gd_frame_orb", "game": "gd", "kind": "atlasFrame", "path": "Resources/GJ_GameSheet-uhd", "match": "ring_01_001.png", "atlas": "gd_sheet", "required": false, "usedBy": "dash_run", "verified": "pending-in-game"},
+    {"id": "tm_turnip_body", "game": "tm", "kind": "unityImage", "path": "*", "match": "turnip", "atlas": "none", "required": true, "usedBy": "dash_run", "verified": "pending-in-game"},
+    {"id": "tm_hand", "game": "tm", "kind": "unityImage", "path": "*", "match": "hand", "atlas": "none", "required": true, "usedBy": "turnip_climb", "verified": "pending-in-game"},
+    {"id": "tm_rock", "game": "tm", "kind": "unityImage", "path": "*", "match": "rock", "atlas": "none", "required": false, "usedBy": "turnip_climb", "verified": "pending-in-game"}
+  ]
+}

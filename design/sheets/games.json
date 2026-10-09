@@ -1,0 +1,10 @@
+{
+  "sheet": "games",
+  "about": "Every game the mashup touches. role: primary = Melty installs into it and starts it; secondary = the mod finds the player's own copy itself.",
+  "columns": ["id", "name", "role", "meltySlug", "steamAppId", "steamInstallDir", "probeFile", "envOverride", "missingText", "verified"],
+  "rows": [
+    {"id": "hk", "name": "Hollow Knight", "role": "primary", "meltySlug": "hollow-knight", "steamAppId": 367520, "steamInstallDir": "Hollow Knight", "probeFile": "hollow_knight.exe", "envOverride": "TURNIPDASH_HK_DIR", "missingText": "ui_hk_missing", "verified": "melty-game_info"},
+    {"id": "gd", "name": "Geometry Dash", "role": "secondary", "meltySlug": "custom-geometry-dash", "steamAppId": 322170, "steamInstallDir": "Geometry Dash", "probeFile": "Resources/StereoMadness.mp3", "envOverride": "TURNIPDASH_GD_DIR", "missingText": "ui_gd_missing", "verified": "pending-in-game"},
+    {"id": "tm", "name": "Turnip Mountain", "role": "secondary", "meltySlug": "custom-turnip-mountain", "steamAppId": 2138410, "steamInstallDir": "Turnip Mountain", "probeFile": "*", "envOverride": "TURNIPDASH_TM_DIR", "missingText": "ui_tm_missing", "verified": "pending-in-game"}
+  ]
+}

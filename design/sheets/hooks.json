@@ -1,0 +1,177 @@
+{
+ "sheet": "hooks",
+ "about": "Every place the mod touches Hollow Knight. Game types are read by reflection by full name, so nothing links against the game's own code besides the Modding API's Mod class.",
+ "columns": [
+  "id",
+  "kind",
+  "typeName",
+  "member",
+  "fallback",
+  "usedBy",
+  "verified"
+ ],
+ "rows": [
+  {
+   "id": "scene_kings_pass",
+   "kind": "scene",
+   "typeName": "UnityEngine.SceneManagement.SceneManager",
+   "member": "Tutorial_01",
+   "fallback": "none",
+   "usedBy": "portal",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "hero_instance",
+   "kind": "staticProperty",
+   "typeName": "HeroController",
+   "member": "instance",
+   "fallback": "GameObject.Find:Knight",
+   "usedBy": "portal",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "hero_relinquish",
+   "kind": "method",
+   "typeName": "HeroController",
+   "member": "RelinquishControl",
+   "fallback": "none",
+   "usedBy": "dash_run",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "hero_regain",
+   "kind": "method",
+   "typeName": "HeroController",
+   "member": "RegainControl",
+   "fallback": "none",
+   "usedBy": "return",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "hero_anim_stop",
+   "kind": "method",
+   "typeName": "HeroController",
+   "member": "StopAnimationControl",
+   "fallback": "none",
+   "usedBy": "dash_run",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "hero_anim_start",
+   "kind": "method",
+   "typeName": "HeroController",
+   "member": "StartAnimationControl",
+   "fallback": "none",
+   "usedBy": "return",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "pd_instance",
+   "kind": "staticProperty",
+   "typeName": "PlayerData",
+   "member": "instance",
+   "fallback": "none",
+   "usedBy": "dash_run",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "pd_invincible",
+   "kind": "field",
+   "typeName": "PlayerData",
+   "member": "isInvincible",
+   "fallback": "none",
+   "usedBy": "dash_run",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "input_handler",
+   "kind": "staticField",
+   "typeName": "InputHandler",
+   "member": "Instance",
+   "fallback": "keyboard",
+   "usedBy": "dash_run",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "input_actions",
+   "kind": "field",
+   "typeName": "InputHandler",
+   "member": "inputActions",
+   "fallback": "keyboard",
+   "usedBy": "dash_run",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "btn_jump",
+   "kind": "action",
+   "typeName": "HeroActions",
+   "member": "jump",
+   "fallback": "Z",
+   "usedBy": "dash_run",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "btn_attack",
+   "kind": "action",
+   "typeName": "HeroActions",
+   "member": "attack",
+   "fallback": "X",
+   "usedBy": "turnip_climb",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "btn_dash",
+   "kind": "action",
+   "typeName": "HeroActions",
+   "member": "dash",
+   "fallback": "C",
+   "usedBy": "turnip_climb",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "btn_up",
+   "kind": "action",
+   "typeName": "HeroActions",
+   "member": "up",
+   "fallback": "UpArrow",
+   "usedBy": "portal",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "btn_down",
+   "kind": "action",
+   "typeName": "HeroActions",
+   "member": "down",
+   "fallback": "DownArrow",
+   "usedBy": "turnip_climb",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "btn_left",
+   "kind": "action",
+   "typeName": "HeroActions",
+   "member": "left",
+   "fallback": "LeftArrow",
+   "usedBy": "turnip_climb",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "btn_right",
+   "kind": "action",
+   "typeName": "HeroActions",
+   "member": "right",
+   "fallback": "RightArrow",
+   "usedBy": "turnip_climb",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "btn_quick_restart",
+   "kind": "key",
+   "typeName": "UnityEngine.Input",
+   "member": "R",
+   "fallback": "none",
+   "usedBy": "dash_run",
+   "verified": "pending-in-game"
+  }
+ ]
+}

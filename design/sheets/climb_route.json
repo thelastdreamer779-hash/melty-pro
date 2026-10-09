@@ -1,0 +1,132 @@
+{
+ "sheet": "climb_route",
+ "about": "Handholds on the Turnip Mountain cliff, in metres from the start ledge. Consecutive holds stay within reach.",
+ "columns": [
+  "id",
+  "x",
+  "y",
+  "kind",
+  "verified"
+ ],
+ "rows": [
+  {
+   "id": "hold_00",
+   "x": 0.0,
+   "y": 0.0,
+   "kind": "ledge",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "hold_01",
+   "x": -1.0,
+   "y": 1.59,
+   "kind": "rock",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "hold_02",
+   "x": -1.89,
+   "y": 3.14,
+   "kind": "rock",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "hold_03",
+   "x": -0.82,
+   "y": 4.47,
+   "kind": "rock",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "hold_04",
+   "x": -2.01,
+   "y": 6.1,
+   "kind": "rock",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "hold_05",
+   "x": -1.22,
+   "y": 7.82,
+   "kind": "ledge",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "hold_06",
+   "x": -2.78,
+   "y": 9.68,
+   "kind": "rock",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "hold_07",
+   "x": -1.55,
+   "y": 11.34,
+   "kind": "rock",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "hold_08",
+   "x": -0.44,
+   "y": 13.05,
+   "kind": "rock",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "hold_09",
+   "x": -1.46,
+   "y": 14.91,
+   "kind": "rock",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "hold_10",
+   "x": -2.89,
+   "y": 16.69,
+   "kind": "ledge",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "hold_11",
+   "x": -1.91,
+   "y": 18.55,
+   "kind": "rock",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "hold_12",
+   "x": -2.64,
+   "y": 20.25,
+   "kind": "rock",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "hold_13",
+   "x": -3.31,
+   "y": 22.11,
+   "kind": "rock",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "hold_14",
+   "x": -2.45,
+   "y": 23.32,
+   "kind": "rock",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "hold_15",
+   "x": -4,
+   "y": 24.94,
+   "kind": "ledge",
+   "verified": "pending-in-game"
+  },
+  {
+   "id": "hold_16",
+   "x": -2.58,
+   "y": 26.61,
+   "kind": "rock",
+   "verified": "pending-in-game"
+  }
+ ]
+}

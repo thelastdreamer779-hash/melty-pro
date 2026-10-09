@@ -1,0 +1,11 @@
+{
+  "sheet": "stages",
+  "about": "The chain the player goes through, in order.",
+  "columns": ["id", "order", "kind", "next", "music", "avatar", "enterText", "doneWhen", "verified"],
+  "rows": [
+    {"id": "portal", "order": 0, "kind": "portal", "next": "dash_run", "music": "none", "avatar": "none", "enterText": "ui_portal_prompt", "doneWhen": "upPressedNearPortal", "verified": "pending-in-game"},
+    {"id": "dash_run", "order": 1, "kind": "run", "next": "turnip_climb", "music": "gd_music_stereo", "avatar": "tm_turnip_body", "enterText": "ui_run_intro", "doneWhen": "passedLastObject", "verified": "pending-in-game"},
+    {"id": "turnip_climb", "order": 2, "kind": "climb", "next": "return", "music": "none", "avatar": "tm_turnip_body", "enterText": "ui_climb_intro", "doneWhen": "bodyAboveSummit", "verified": "pending-in-game"},
+    {"id": "return", "order": 3, "kind": "return", "next": "none", "music": "none", "avatar": "none", "enterText": "ui_clear", "doneWhen": "timerElapsed", "verified": "pending-in-game"}
+  ]
+}

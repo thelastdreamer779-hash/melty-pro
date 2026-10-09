@@ -1,0 +1,16 @@
+{
+  "sheet": "ui",
+  "about": "Every line of text the player sees.",
+  "columns": ["id", "text", "verified"],
+  "rows": [
+    {"id": "ui_portal_prompt", "text": "A Geometry Dash portal hums here. Press UP to enter.", "verified": "build"},
+    {"id": "ui_run_intro", "text": "Stereo Madness! You're the turnip now. JUMP to jump (hold in the ship). R restarts.", "verified": "build"},
+    {"id": "ui_climb_intro", "text": "Turnip Mountain! Hold ATTACK for your left hand and DASH for your right, steer with the arrows, and swing to the top.", "verified": "build"},
+    {"id": "ui_clear", "text": "Summit! Back to Hallownest. Time: {0}", "verified": "build"},
+    {"id": "ui_hk_missing", "text": "Turnip Dash runs inside Hollow Knight.", "verified": "build"},
+    {"id": "ui_gd_missing", "text": "Turnip Dash couldn't find Geometry Dash. Install it on Steam, or set TURNIPDASH_GD_DIR to its folder, then re-enter the portal.", "verified": "build"},
+    {"id": "ui_tm_missing", "text": "Turnip Dash couldn't find Turnip Mountain. Install it on Steam, or set TURNIPDASH_TM_DIR to its folder, then re-enter the portal.", "verified": "build"},
+    {"id": "ui_tm_art_missing", "text": "Turnip Mountain was found, but its turnip art could not be read from it (details in ModLog.txt). Using a plain marker.", "verified": "build"},
+    {"id": "ui_attempt", "text": "Attempt {0}   {1}%", "verified": "build"}
+  ]
+}

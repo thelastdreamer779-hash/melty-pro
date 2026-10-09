@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/TurnipDash/Content/Plist.cs" />
+    <Compile Include="../../src/TurnipDash/Content/GdLevel.cs" />
+    <Compile Include="../../src/TurnipDash/Content/Atlas.cs" />
+    <Compile Include="../../src/TurnipDash/GameLocator.cs" />
+    <Compile Include="../../src/TurnipDash/Generated/Sheets.g.cs" />
+  </ItemGroup>
+</Project>
