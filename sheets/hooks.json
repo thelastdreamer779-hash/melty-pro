@@ -1,0 +1,12 @@
+{"sheet":"hooks","columns":["id","hook","api","does","verified"],
+"rows":[
+ {"id":"addStates","hook":"On.Celeste.Player.ctor","api":"Player.AddState(name, update, null, begin, end)","does":"adds cube, ship and turnip states","verified":"build:api"},
+ {"id":"drawAvatar","hook":"On.Celeste.Player.Render","api":"orig + GD/TM sprite draw; hides Madeline in custom states","does":"draws GD icon or TM turnip in place of Madeline","verified":"build:api"},
+ {"id":"roomMusic","hook":"Everest.Events.Level.OnLoadLevel","api":"(Level, Player.IntroTypes, bool)","does":"starts the room's music from content sheet, sets startMode","verified":"build:api"},
+ {"id":"respawn","hook":"Everest.Events.Player.OnSpawn","api":"Action<Player>","does":"restarts the room song from 0 and resets mode (GD-style restart)","verified":"build:api"},
+ {"id":"exit","hook":"Everest.Events.Level.OnExit","api":"ExitHandler","does":"stops our FMOD channel","verified":"build:api"},
+ {"id":"muteVanilla","hook":"Everest.Events.Level.OnLoadLevel","api":"Audio.SetMusic(null)","does":"silences Celeste music while a borrowed song plays","verified":"build:api"},
+ {"id":"fmodTick","hook":"On.Celeste.Level.Update","api":"FMOD channel getPosition(MS)","does":"updates the beat clock, pauses with the game","verified":"build:api"},
+ {"id":"autoStart","hook":"On.Celeste.OuiChapterSelect.Enter","api":"LevelEnter.Go(new Session(AreaData.Get(sid).ToKey()), false)","does":"with --turnip-dash on the command line, opens the hub after the save file is picked","verified":"build:api"},
+ {"id":"notices","hook":"Level HUD entity","api":"Entity Tag=HUD","does":"shows which game content is missing","verified":"build:api"}
+]}

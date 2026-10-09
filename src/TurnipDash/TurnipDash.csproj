@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>TurnipDash</AssemblyName>
+    <RootNamespace>Celeste.Mod.TurnipDash</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <!-- Everest's reference build of Celeste (lib-stripped from the Everest release Melty installs) -->
+    <CelesteLib>$(MSBuildThisFileDirectory)../../.lib</CelesteLib>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Celeste"><HintPath>$(CelesteLib)/Celeste.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="FNA"><HintPath>$(CelesteLib)/FNA.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="MMHOOK_Celeste"><HintPath>$(CelesteLib)/MMHOOK_Celeste.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="MonoMod.Utils"><HintPath>$(CelesteLib)/MonoMod.Utils.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="MonoMod.RuntimeDetour"><HintPath>$(CelesteLib)/MonoMod.RuntimeDetour.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="YamlDotNet"><HintPath>$(CelesteLib)/YamlDotNet.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AssetsTools.NET" Version="3.0.2" />
+    <PackageReference Include="AssetsTools.NET.Texture" Version="3.0.2" />
+    <PackageReference Include="SharpCompress" Version="0.50.4" />
+  </ItemGroup>
+</Project>

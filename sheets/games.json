@@ -1,0 +1,6 @@
+{"sheet":"games","columns":["id","name","meltySlug","role","steamAppId","installDirName","contentRoot","engine","verified"],
+"rows":[
+ {"id":"celeste","name":"Celeste","meltySlug":"celeste","role":"primary","steamAppId":"504230","installDirName":"Celeste","contentRoot":"{game}","engine":"xna/fna (Everest stable-1.6580.0, net8.0)","verified":"melty:game_info"},
+ {"id":"geometry-dash","name":"Geometry Dash","meltySlug":"custom-geometry-dash","role":"secondary","steamAppId":"322170","installDirName":"Geometry Dash","contentRoot":"Resources","engine":"cocos2d-x (C++), loose .png/.plist/.mp3/.fnt in Resources","verified":"melty:search_games(steamAppId); needs-game:file names"},
+ {"id":"turnip-mountain","name":"Turnip Mountain","meltySlug":"custom-turnip-mountain","role":"secondary","steamAppId":"2138410","installDirName":"Turnip Mountain","contentRoot":".","engine":"unknown: detected at run time (unity|godot|gamemaker|loose)","verified":"melty:search_games(steamAppId); needs-game:engine"}
+]}

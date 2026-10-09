@@ -1,0 +1,7 @@
+{"sheet":"modes","columns":["id","state","art","runSpeed","gravity","jumpSpeed","liftAccel","maxFall","maxRise","reach","pull","gripRadius","diesOnWallHit","spinDegPerSec","verified"],
+"rows":[
+ {"id":"normal","state":"vanilla","art":"celeste:Madeline","runSpeed":0,"gravity":0,"jumpSpeed":0,"liftAccel":0,"maxFall":0,"maxRise":0,"reach":0,"pull":0,"gripRadius":0,"diesOnWallHit":false,"spinDegPerSec":0,"verified":"design"},
+ {"id":"cube","state":"TurnipDash.Cube","art":"gd_cube+gd_cube2","runSpeed":83.1,"gravity":695,"jumpSpeed":156,"liftAccel":0,"maxFall":260,"maxRise":0,"reach":0,"pull":0,"gripRadius":0,"diesOnWallHit":true,"spinDegPerSec":400,"verified":"design: 10.386 GD blocks/s x 8 px per block; jump clears 3 blocks"},
+ {"id":"ship","state":"TurnipDash.Ship","art":"gd_ship+gd_cube","runSpeed":83.1,"gravity":420,"jumpSpeed":0,"liftAccel":840,"maxFall":140,"maxRise":140,"reach":0,"pull":0,"gripRadius":0,"diesOnWallHit":true,"spinDegPerSec":0,"verified":"design"},
+ {"id":"turnip","state":"TurnipDash.Turnip","art":"tm_turnip+tm_hand","runSpeed":0,"gravity":520,"jumpSpeed":0,"liftAccel":0,"maxFall":220,"maxRise":0,"reach":26,"pull":11,"gripRadius":3,"diesOnWallHit":false,"spinDegPerSec":0,"verified":"design"}
+]}

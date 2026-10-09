@@ -1,0 +1,18 @@
+{"sheet":"content","columns":["id","game","kind","lookup","pick","usedBy","whenMissing","verified"],
+"rows":[
+ {"id":"gd_song_menu","game":"geometry-dash","kind":"song","lookup":["menuLoop.mp3"],"pick":"first","usedBy":["room:hub"],"whenMissing":"silence + notice","verified":"needs-game:file"},
+ {"id":"gd_song_stereo","game":"geometry-dash","kind":"song","lookup":["StereoMadness.mp3"],"pick":"first","usedBy":["room:rhythm"],"whenMissing":"steady fallback clock + notice","verified":"needs-game:file"},
+ {"id":"gd_song_bot","game":"geometry-dash","kind":"song","lookup":["BackOnTrack.mp3"],"pick":"first","usedBy":["room:autorun"],"whenMissing":"silence + notice","verified":"needs-game:file"},
+ {"id":"gd_spike","game":"geometry-dash","kind":"frame","lookup":["spike_01_001.png","spike_"],"pick":"exact-then-prefix","usedBy":["entity:GDSpike","entity:BeatSpike"],"whenMissing":"outline + notice","verified":"needs-game:frame"},
+ {"id":"gd_block","game":"geometry-dash","kind":"frame","lookup":["square_01_001.png","square_"],"pick":"exact-then-prefix","usedBy":["entity:GDBlock","entity:BeatBlock"],"whenMissing":"outline + notice","verified":"needs-game:frame"},
+ {"id":"gd_cube","game":"geometry-dash","kind":"frame","lookup":["player_01_001.png"],"pick":"exact","usedBy":["mode:cube","mode:ship"],"whenMissing":"Madeline shown + notice","verified":"needs-game:frame"},
+ {"id":"gd_cube2","game":"geometry-dash","kind":"frame","lookup":["player_01_2_001.png"],"pick":"exact","usedBy":["mode:cube","mode:ship"],"whenMissing":"skip layer","verified":"needs-game:frame"},
+ {"id":"gd_ship","game":"geometry-dash","kind":"frame","lookup":["ship_01_001.png"],"pick":"exact","usedBy":["mode:ship"],"whenMissing":"cube only","verified":"needs-game:frame"},
+ {"id":"gd_portal_cube","game":"geometry-dash","kind":"frame","lookup":["portal_03_front_001.png"],"pick":"exact","usedBy":["entity:ModePortal"],"whenMissing":"outline + notice","verified":"needs-game:frame"},
+ {"id":"gd_portal_ship","game":"geometry-dash","kind":"frame","lookup":["portal_04_front_001.png"],"pick":"exact","usedBy":["entity:ModePortal"],"whenMissing":"outline + notice","verified":"needs-game:frame"},
+ {"id":"gd_font","game":"geometry-dash","kind":"font","lookup":["bigFont-uhd.fnt","bigFont-hd.fnt","bigFont.fnt"],"pick":"first","usedBy":["entity:FinishGate","entity:HubSign"],"whenMissing":"Celeste font","verified":"needs-game:file"},
+ {"id":"tm_turnip","game":"turnip-mountain","kind":"sprite","lookup":["turnip","player","body","head"],"pick":"best-name","usedBy":["mode:turnip","entity:TurnipStatue","entity:ModePortal"],"whenMissing":"Madeline shown + notice","verified":"needs-game:asset name"},
+ {"id":"tm_hand","game":"turnip-mountain","kind":"sprite","lookup":["hand","bag","glove","fist"],"pick":"best-name","usedBy":["mode:turnip"],"whenMissing":"plain dot + notice","verified":"needs-game:asset name"},
+ {"id":"tm_music","game":"turnip-mountain","kind":"song","lookup":["music","theme","mountain","bgm","song","level"],"pick":"best-name-longest","usedBy":["room:turnip"],"whenMissing":"silence + notice","verified":"needs-game:asset name"},
+ {"id":"tm_grab","game":"turnip-mountain","kind":"sfx","lookup":["grab","grip","hold","catch"],"pick":"best-name-shortest","usedBy":["mode:turnip"],"whenMissing":"Celeste grab sound","verified":"needs-game:asset name"}
+]}

@@ -1,0 +1,7 @@
+# Turnip Dash: Geometry Dash x Turnip Mountain, played in Celeste
+TurnipDash= Turnip Dash
+TurnipDash_TurnipDash= Turnip Dash
+modoptions_TurnipDash_Title= Turnip Dash
+modoptions_TurnipDash_GeometryDashFolder= Geometry Dash folder (blank = find it on Steam)
+modoptions_TurnipDash_TurnipMountainFolder= Turnip Mountain folder (blank = find it on Steam)
+modoptions_TurnipDash_ShowContentReport= Log what was read from each game

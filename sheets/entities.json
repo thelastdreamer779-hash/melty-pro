@@ -1,0 +1,13 @@
+{"sheet":"entities","columns":["id","everestName","class","width","height","merge","art","solid","kills","params","verified"],
+"rows":[
+ {"id":"BeatBlock","everestName":"TurnipDash/BeatBlock","class":"BeatBlock","width":8,"height":8,"merge":"horizontal","art":"gd_block","solid":true,"kills":false,"params":{"beatsOn":2,"beatsOff":2},"verified":"build"},
+ {"id":"BeatSpike","everestName":"TurnipDash/BeatSpike","class":"BeatSpike","width":8,"height":8,"merge":"horizontal","art":"gd_spike","solid":false,"kills":true,"params":{"beatsOn":1,"beatsOff":1},"verified":"build"},
+ {"id":"GDSpike","everestName":"TurnipDash/GDSpike","class":"GDSpike","width":8,"height":8,"merge":"none","art":"gd_spike","solid":false,"kills":true,"params":{},"verified":"build"},
+ {"id":"GDBlock","everestName":"TurnipDash/GDBlock","class":"GDBlock","width":8,"height":8,"merge":"rect","art":"gd_block","solid":true,"kills":false,"params":{},"verified":"build"},
+ {"id":"ModePortal","everestName":"TurnipDash/ModePortal","class":"ModePortal","width":16,"height":32,"merge":"none","art":"gd_portal_cube|gd_portal_ship|tm_turnip","solid":false,"kills":false,"params":{},"verified":"build"},
+ {"id":"TurnipStatue","everestName":"TurnipDash/TurnipStatue","class":"TurnipStatue","width":16,"height":16,"merge":"none","art":"tm_turnip","solid":false,"kills":false,"params":{"returnTo":"hub"},"verified":"build"},
+ {"id":"FinishGate","everestName":"TurnipDash/FinishGate","class":"FinishGate","width":16,"height":24,"merge":"none","art":"gd_font","solid":false,"kills":false,"params":{"returnTo":"hub"},"verified":"build"},
+ {"id":"HubSign","everestName":"TurnipDash/HubSign","class":"HubSign","width":8,"height":8,"merge":"none","art":"gd_font","solid":false,"kills":false,"params":{},"verified":"build"},
+ {"id":"player","everestName":"player","class":"vanilla","width":8,"height":8,"merge":"none","art":"celeste:Madeline","solid":false,"kills":false,"params":{},"verified":"build"},
+ {"id":"spikesUp","everestName":"spikesUp","class":"vanilla","width":8,"height":8,"merge":"horizontal","art":"celeste:spikes","solid":false,"kills":true,"params":{"type":"default"},"verified":"build"}
+]}

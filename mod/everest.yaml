@@ -1,0 +1,6 @@
+- Name: TurnipDash
+  Version: 1.0.0
+  DLL: TurnipDash.dll
+  Dependencies:
+    - Name: EverestCore
+      Version: 1.4465.0

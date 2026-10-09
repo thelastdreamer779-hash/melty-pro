@@ -1,0 +1,7 @@
+.lib/
+build/
+dist/
+src/**/bin/
+src/**/obj/
+mod/Maps/
+__pycache__/

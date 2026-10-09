@@ -1,0 +1,9 @@
+{"sheet":"inputs","columns":["id","mode","gamepad","keyboardMouse","does","verified"],
+"rows":[
+ {"id":"cubeJump","mode":"cube","gamepad":"Jump (A)","keyboardMouse":"Jump (C) or left click","does":"hold to jump, re-jumps on landing","verified":"build"},
+ {"id":"shipLift","mode":"ship","gamepad":"Jump (A)","keyboardMouse":"Jump (C) or left click","does":"hold to fly up","verified":"build"},
+ {"id":"leftHandAim","mode":"turnip","gamepad":"left stick","keyboardMouse":"arrow keys (Aim)","does":"moves left hand around the body","verified":"build"},
+ {"id":"rightHandAim","mode":"turnip","gamepad":"right stick","keyboardMouse":"mouse position","does":"moves right hand around the body","verified":"build"},
+ {"id":"leftGrip","mode":"turnip","gamepad":"left trigger or Grab","keyboardMouse":"Grab (Z/V)","does":"hold to grip with the left hand","verified":"build"},
+ {"id":"rightGrip","mode":"turnip","gamepad":"right trigger or Jump","keyboardMouse":"left click or Jump (C)","does":"hold to grip with the right hand","verified":"build"}
+]}

@@ -1,0 +1,20 @@
+{"sheet":"legend","columns":["char","kind","ref","attrs","note"],
+"rows":[
+ {"char":".","kind":"air","ref":"","attrs":{},"note":"empty"},
+ {"char":"#","kind":"tile","ref":"room.tileset","attrs":{},"note":"solid Celeste tile"},
+ {"char":"P","kind":"entity","ref":"player","attrs":{},"note":"spawn point"},
+ {"char":"^","kind":"entity","ref":"spikesUp","attrs":{"type":"default"},"note":"Celeste spikes"},
+ {"char":"B","kind":"entity","ref":"BeatBlock","attrs":{"phase":0},"note":"on during even halves"},
+ {"char":"b","kind":"entity","ref":"BeatBlock","attrs":{"phase":1},"note":"on during odd halves"},
+ {"char":"S","kind":"entity","ref":"BeatSpike","attrs":{"phase":0},"note":"out on even beats"},
+ {"char":"s","kind":"entity","ref":"BeatSpike","attrs":{"phase":1},"note":"out on odd beats"},
+ {"char":"A","kind":"entity","ref":"GDSpike","attrs":{},"note":"GD spike"},
+ {"char":"G","kind":"entity","ref":"GDBlock","attrs":{},"note":"GD block"},
+ {"char":"C","kind":"entity","ref":"ModePortal","attrs":{"mode":"cube"},"note":"to cube"},
+ {"char":"H","kind":"entity","ref":"ModePortal","attrs":{"mode":"ship"},"note":"to ship"},
+ {"char":"U","kind":"entity","ref":"ModePortal","attrs":{"mode":"turnip"},"note":"to turnip"},
+ {"char":"N","kind":"entity","ref":"ModePortal","attrs":{"mode":"normal"},"note":"back to Madeline"},
+ {"char":"T","kind":"entity","ref":"TurnipStatue","attrs":{},"note":"Turnip Mountain turnip at the summit"},
+ {"char":"F","kind":"entity","ref":"FinishGate","attrs":{},"note":"LEVEL COMPLETE, back to hub"},
+ {"char":"K","kind":"entity","ref":"HubSign","attrs":{},"note":"hub text"}
+]}
